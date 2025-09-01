@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Tag</title>
+</head>
+<body>
+    <h1>Iframe Tag:</h1>
+    <p>iframe tag is used to embed another document within the current HTML document.<br>
+     Ads are often displayed using iframes.</p>
+    <!-- <h2>Iframe using SRC</h2> -->
+    <!-- <iframe src="https://en.wikipedia.org/wiki/HTML" 
+    frameborder="20"
+     width="400px" 
+     height="300px" 
+     scrolling="yes">
+
+        Your browser does not support iframes.
+    </iframe> -->
+    <h2>Iframe using SRCDOC</h2>
+    <iframe srcdoc= '<h1>Iframe using Srcdoc</h1>
+    <a href="https://en.wikipedia.org/wiki/HTML" target="iframe2">Click here </a>'
+     frameborder="20" scrolling = "yes" width="400px" height="300px" name="iframe1">
+        Your browser does not support iframes.
+    </iframe>
+    <iframe srcdoc='<h1>Iframe using Srcdoc</h1>' frameborder="20" scrolling = "yes" width="400px" height="300px" name="iframe2">
+        Your browser does not support iframes. 
+    </iframe>
+</body>
+</html>
